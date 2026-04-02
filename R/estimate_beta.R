@@ -27,7 +27,7 @@ beta_hat <- function(X, y) {
 my_theme <- function() {
   ggplot2::theme_minimal() +
     ggplot2::theme(
-      text = ggplot2::element_text(family = "Comic Sans MS", size = 12),
+      text = ggplot2::element_text(family = "Georgia", size = 12),
       axis.title = ggplot2::element_text(face = "bold"),
       panel.grid.major = ggplot2::element_line(color = "gray80"),
       panel.grid.minor = ggplot2::element_blank()
